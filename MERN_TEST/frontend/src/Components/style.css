@@ -1,0 +1,182 @@
+/* Start Siderbar  */
+
+.sidebar{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    color: white;
+}
+
+.list-item-style{
+    background: #043933;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0px 5px 25px #00000040;
+    transition: 0.3s ease-in-out;
+}
+
+.list-item-style:hover{
+    background-color:  #032e29;
+}
+
+/* Media query for small screens (smartphones) */
+@media (max-width: 767px) {
+    .sidebar {
+        display: none;
+    }
+  }
+  
+  /* Media query for medium screens (tablets) */
+  @media (min-width: 768px) and (max-width: 1023px) {
+    .sidebar {
+        display: none;
+
+    }
+  }
+
+/* End Siderbar  */
+
+/* Start Main  */
+.button{
+    background: linear-gradient(45deg, #57BC90, #004B40);
+    padding: 0.7rem 2rem ;
+    color: white;
+    border: none;
+    border-radius: 10px;
+}
+
+.button:hover{
+    background: linear-gradient(45deg, #51b188, #004238);
+}
+/* End Main  */
+
+/* Start Table */
+.table-header{
+    background-color: #C5E3D6;
+    color: #015249;
+}
+
+.table-body{
+    margin-top: 1.5rem;
+}
+
+.list-items{
+    background-color: white;
+    margin:5rem;
+}
+
+.image{
+    height: 80px;
+    width: 90px;
+}
+
+.edit-button{
+    border: none;
+    background-color: #B0E1B7;
+    color: #188F29;
+    padding: 0.3rem 2rem;
+    font-size: "14px";
+    font-weight: 700;
+    margin-right: 20px;
+    border-radius: 5px;
+    transition: 0.3s ease-in-out;
+}
+
+.delete-button{
+    border: none;
+    border: none;
+    background-color: #EF9999;
+    color: #DE2525;
+    padding: 0.3rem 2rem;
+    font-size: "14px";
+    font-weight: 700;
+    margin-right: 20px;
+    transition: 0.3s ease-in-out;
+    border-radius: 5px;
+}
+
+.span{
+    padding: 5rem;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.edit-button:hover{
+    background-color: #60e674;
+}
+.delete-button:hover{
+    background-color: #ffb2b2;
+}
+
+/* Media query for small screens (smartphones) */
+@media (max-width: 767px) {
+    .edit-button{
+        border: none;
+        background-color: #B0E1B7;
+        color: #188F29;
+        padding: 0.1rem 1rem;
+        font-size: 15px;
+        font-weight: 700;
+        margin-right: 20px;
+        border-radius: 5px;
+        transition: 0.3s ease-in-out;
+    }
+    .list-items{
+        background-color: white;
+        margin: 13px;
+    }
+    .delete-button{
+        border: none;
+        border: none;
+        background-color: #EF9999;
+        color: #DE2525;
+        padding: 0.1rem 0.5rem;
+        font-size: 15px;
+        font-weight: 700;
+        margin-right: 20px;
+        transition: 0.3s ease-in-out;
+        border-radius: 5px;
+    }
+    .image{
+        height: 60px;
+        width: 70px;
+    }
+    .span{
+        padding: 20px;
+    }
+  }
+  
+/* End Table */
+
+/* Start Input */
+.input{
+    border: 1px solid #DCDBDD;
+    border-radius: 10px;
+    padding: 10px 20px;
+    color: #84818A;
+    margin-top: 5px;
+}
+
+.input[type= "file"]{
+    display: none;
+    color: black;
+}
+
+label{
+    display: inline-block;
+}
+
+/* End Input */
+
+/* Start Form Button */
+.form-button{
+    border: none;
+    width: 100%;
+    margin-top: 2rem;
+    background: linear-gradient(45deg, #51b188, #004238);
+    border-radius: 10px;
+    color: white;
+    padding: 10px 20px;
+    font-size: 15px;
+}
+/* End Form Button */
